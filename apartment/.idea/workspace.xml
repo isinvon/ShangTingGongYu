@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9bffcfa0-2010-47b9-a6ff-321036c74c81" name="Changes" comment="分模块的公寓项目">
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-Apartment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/common/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/common/src/main/java/com/tyz/common/constant/RedisConstant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/common/src/main/java/com/tyz/common/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/common/src/main/java/com/tyz/common/exception/LeaseException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/common/src/main/java/com/tyz/common/login/LoginUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/common/src/main/java/com/tyz/common/login/LoginUserHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/common/src/main/java/com/tyz/common/minio/MinioConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/common/src/main/java/com/tyz/common/minio/MinioProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/common/src/main/java/com/tyz/common/mybatisplus/MybatisPlusConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/common/src/main/java/com/tyz/common/result/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/common/src/main/java/com/tyz/common/result/ResultCodeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/common/src/main/java/com/tyz/common/sys/AliyunSMSConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/common/src/main/java/com/tyz/common/sys/AliyunSMSProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/common/src/main/java/com/tyz/common/utils/JwtUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/common/src/main/java/com/tyz/common/utils/VerifyCodeUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/lease.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/model/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/model/src/main/java/com/tyz/model/entity/ApartmentFacility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/model/src/main/java/com/tyz/model/entity/ApartmentFeeValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/model/src/main/java/com/tyz/model/entity/ApartmentInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/model/src/main/java/com/tyz/model/entity/ApartmentLabel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/model/src/main/java/com/tyz/model/entity/AttrKey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/model/src/main/java/com/tyz/model/entity/AttrValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/model/src/main/java/com/tyz/model/entity/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/model/src/main/java/com/tyz/model/entity/BrowsingHistory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/model/src/main/java/com/tyz/model/entity/CityInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/model/src/main/java/com/tyz/model/entity/DistrictInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/model/src/main/java/com/tyz/model/entity/FacilityInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/model/src/main/java/com/tyz/model/entity/FeeKey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/model/src/main/java/com/tyz/model/entity/FeeValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/model/src/main/java/com/tyz/model/entity/GraphInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/model/src/main/java/com/tyz/model/entity/LabelInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/model/src/main/java/com/tyz/model/entity/LeaseAgreement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/model/src/main/java/com/tyz/model/entity/LeaseTerm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/model/src/main/java/com/tyz/model/entity/PaymentType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/model/src/main/java/com/tyz/model/entity/ProvinceInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/model/src/main/java/com/tyz/model/entity/RoomAttrValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/model/src/main/java/com/tyz/model/entity/RoomFacility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/model/src/main/java/com/tyz/model/entity/RoomInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/model/src/main/java/com/tyz/model/entity/RoomLabel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/model/src/main/java/com/tyz/model/entity/RoomLeaseTerm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/model/src/main/java/com/tyz/model/entity/RoomPaymentType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/model/src/main/java/com/tyz/model/entity/SystemPost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/model/src/main/java/com/tyz/model/entity/SystemUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/model/src/main/java/com/tyz/model/entity/UserInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/model/src/main/java/com/tyz/model/entity/ViewAppointment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/model/src/main/java/com/tyz/model/enums/AppointmentStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/model/src/main/java/com/tyz/model/enums/BaseEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/model/src/main/java/com/tyz/model/enums/BaseStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/model/src/main/java/com/tyz/model/enums/ItemType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/model/src/main/java/com/tyz/model/enums/LeaseSourceType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/model/src/main/java/com/tyz/model/enums/LeaseStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/model/src/main/java/com/tyz/model/enums/ReleaseStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/model/src/main/java/com/tyz/model/enums/SystemUserType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/AdminWebApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/controller/apartment/ApartmentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/controller/apartment/AttrController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/controller/apartment/FacilityController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/controller/apartment/FeeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/controller/apartment/FileUploadController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/controller/apartment/LabelController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/controller/apartment/LeaseTermController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/controller/apartment/PaymentTypeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/controller/apartment/RegionInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/controller/apartment/RoomController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/controller/lease/LeaseAgreementController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/controller/lease/ViewAppointmentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/controller/login/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/controller/system/SystemPostController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/controller/system/SystemUserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/controller/user/UserInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/custom/config/Knife4jConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/custom/config/WebMvcConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/custom/converter/StringToBaseEnumConverterFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/custom/converter/StringToItemTypeConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/custom/interceptor/AuthenticationInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/mapper/ApartmentFacilityMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/mapper/ApartmentFeeValueMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/mapper/ApartmentInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/mapper/ApartmentLabelMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/mapper/AttrKeyMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/mapper/AttrValueMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/mapper/BrowsingHistoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/mapper/CityInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/mapper/DistrictInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/mapper/FacilityInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/mapper/FeeKeyMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/mapper/FeeValueMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/mapper/GraphInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/mapper/LabelInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/mapper/LeaseAgreementMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/mapper/LeaseTermMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/mapper/PaymentTypeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/mapper/ProvinceInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/mapper/RoomAttrValueMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/mapper/RoomFacilityMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/mapper/RoomInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/mapper/RoomLabelMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/mapper/RoomLeaseTermMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/mapper/RoomPaymentTypeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/mapper/SystemPostMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/mapper/SystemUserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/mapper/UserInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/mapper/ViewAppointmentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/schedule/ScheduledTasks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/ApartmentFacilityService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/ApartmentFeeValueService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/ApartmentInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/ApartmentLabelService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/AttrKeyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/AttrValueService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/BrowsingHistoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/CityInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/DistrictInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/FacilityInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/FeeKeyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/FeeValueService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/FileService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/GraphInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/LabelInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/LeaseAgreementService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/LeaseTermService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/LoginService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/PaymentTypeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/ProvinceInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/RoomAttrValueService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/RoomFacilityService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/RoomInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/RoomLabelService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/RoomLeaseTermService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/RoomPaymentTypeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/SystemPostService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/SystemUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/UserInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/ViewAppointmentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/impl/ApartmentFacilityServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/impl/ApartmentFeeValueServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/impl/ApartmentInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/impl/ApartmentLabelServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/impl/AttrKeyServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/impl/AttrValueServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/impl/BrowsingHistoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/impl/CityInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/impl/DistrictInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/impl/FacilityInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/impl/FeeKeyServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/impl/FeeValueServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/impl/FileServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/impl/GraphInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/impl/LabelInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/impl/LeaseAgreementServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/impl/LeaseTermServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/impl/LoginServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/impl/PaymentTypeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/impl/ProvinceInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/impl/RoomAttrValueServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/impl/RoomFacilityServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/impl/RoomInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/impl/RoomLabelServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/impl/RoomLeaseTermServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/impl/RoomPaymentTypeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/impl/SystemPostServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/impl/SystemUserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/impl/UserInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/service/impl/ViewAppointmentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/vo/agreement/AgreementQueryVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/vo/agreement/AgreementVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/vo/apartment/ApartmentDetailVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/vo/apartment/ApartmentItemVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/vo/apartment/ApartmentQueryVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/vo/apartment/ApartmentSubmitVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/vo/appointment/AppointmentQueryVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/vo/appointment/AppointmentVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/vo/attr/AttrKeyVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/vo/attr/AttrValueVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/vo/fee/FeeKeyVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/vo/fee/FeeValueVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/vo/graph/GraphVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/vo/login/CaptchaVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/vo/login/LoginVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/vo/room/RoomDetailVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/vo/room/RoomItemVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/vo/room/RoomQueryVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/vo/room/RoomSubmitVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/vo/system/user/SystemUserInfoVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/vo/system/user/SystemUserItemVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/vo/system/user/SystemUserQueryVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/java/com/tyz/web/admin/vo/user/UserInfoQueryVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/resources/mapper/ApartmentFacilityMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/resources/mapper/ApartmentFeeValueMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/resources/mapper/ApartmentInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/resources/mapper/ApartmentLabelMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/resources/mapper/AttrKeyMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/resources/mapper/AttrValueMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/resources/mapper/BrowsingHistoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/resources/mapper/CityInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/resources/mapper/DistrictInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/resources/mapper/FacilityInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/resources/mapper/FeeKeyMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/resources/mapper/FeeValueMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/resources/mapper/GraphInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/resources/mapper/LabelInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/resources/mapper/LeaseAgreementMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/resources/mapper/LeaseTermMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/resources/mapper/PaymentTypeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/resources/mapper/ProvinceInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/resources/mapper/RoomAttrValueMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/resources/mapper/RoomFacilityMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/resources/mapper/RoomInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/resources/mapper/RoomLabelMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/resources/mapper/RoomLeaseTermMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/resources/mapper/RoomPaymentTypeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/resources/mapper/SystemPostMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/resources/mapper/SystemUserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/resources/mapper/UserInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-admin/src/main/resources/mapper/ViewAppointmentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/AppWebApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/controller/agreement/LeaseAgreementController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/controller/apartment/ApartmentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/controller/appointment/ViewAppointmentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/controller/history/BrowsingHistoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/controller/leasaterm/LeaseTermController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/controller/login/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/controller/payment/PaymentTypeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/controller/region/RegionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/controller/room/RoomController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/custom/config/Knife4jConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/custom/config/WebMvcConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/custom/interceptor/AuthenticationInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/mapper/ApartmentFacilityMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/mapper/ApartmentFeeValueMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/mapper/ApartmentInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/mapper/ApartmentLabelMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/mapper/AttrKeyMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/mapper/AttrValueMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/mapper/BrowsingHistoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/mapper/CityInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/mapper/DistrictInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/mapper/FacilityInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/mapper/FeeKeyMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/mapper/FeeValueMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/mapper/GraphInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/mapper/LabelInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/mapper/LeaseAgreementMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/mapper/LeaseTermMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/mapper/PaymentTypeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/mapper/ProvinceInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/mapper/RoomAttrValueMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/mapper/RoomFacilityMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/mapper/RoomInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/mapper/RoomLabelMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/mapper/RoomLeaseTermMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/mapper/RoomPaymentTypeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/mapper/UserInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/mapper/ViewAppointmentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/ApartmentFacilityService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/ApartmentFeeValueService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/ApartmentInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/ApartmentLabelService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/AttrKeyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/AttrValueService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/BrowsingHistoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/CityInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/DistrictInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/FacilityInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/FeeKeyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/FeeValueService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/GraphInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/LabelInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/LeaseAgreementService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/LeaseTermService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/LoginService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/PaymentTypeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/ProvinceInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/RoomAttrValueService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/RoomFacilityService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/RoomInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/RoomLabelService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/RoomLeaseTermService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/RoomPaymentTypeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/SmsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/UserInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/ViewAppointmentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/impl/ApartmentFacilityServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/impl/ApartmentFeeValueServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/impl/ApartmentInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/impl/ApartmentLabelServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/impl/AttrKeyServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/impl/AttrValueServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/impl/BrowsingHistoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/impl/CityInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/impl/DistrictInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/impl/FacilityInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/impl/FeeKeyServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/impl/FeeValueServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/impl/GraphInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/impl/LabelInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/impl/LeaseAgreementServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/impl/LeaseTermServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/impl/LoginServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/impl/PaymentTypeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/impl/ProvinceInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/impl/RoomAttrValueServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/impl/RoomFacilityServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/impl/RoomInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/impl/RoomLabelServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/impl/RoomLeaseTermServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/impl/RoomPaymentTypeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/impl/SmsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/impl/UserInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/service/impl/ViewAppointmentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/vo/agreement/AgreementDetailVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/vo/agreement/AgreementItemVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/vo/apartment/ApartmentDetailVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/vo/apartment/ApartmentItemVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/vo/appointment/AppointmentDetailVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/vo/appointment/AppointmentItemVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/vo/attr/AttrKeyVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/vo/attr/AttrValueVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/vo/fee/FeeKeyVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/vo/fee/FeeValueVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/vo/graph/GraphVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/vo/history/HistoryItemVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/vo/room/RoomDetailVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/vo/room/RoomItemVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/vo/room/RoomQueryVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/vo/user/LoginVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/vo/user/UserInfoVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/java/com/tyz/web/app/vo/user/UserSubmitVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/resources/mapper/ApartmentFacilityMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/resources/mapper/ApartmentFeeValueMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/resources/mapper/ApartmentInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/resources/mapper/ApartmentLabelMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/resources/mapper/AttrKeyMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/resources/mapper/AttrValueMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/resources/mapper/BrowsingHistoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/resources/mapper/CityInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/resources/mapper/DistrictInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/resources/mapper/FacilityInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/resources/mapper/FeeKeyMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/resources/mapper/FeeValueMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/resources/mapper/GraphInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/resources/mapper/LabelInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/resources/mapper/LeaseAgreementMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/resources/mapper/LeaseTermMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/resources/mapper/PaymentTypeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/resources/mapper/ProvinceInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/resources/mapper/RoomAttrValueMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/resources/mapper/RoomFacilityMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/resources/mapper/RoomInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/resources/mapper/RoomLabelMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/resources/mapper/RoomLeaseTermMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/resources/mapper/RoomPaymentTypeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/resources/mapper/UserInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-Apartment/web/web-app/src/main/resources/mapper/ViewAppointmentMapper.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2i5dAwOsyyhmohkTwwg4l70eFhf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.apartment [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.common [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.model [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.web [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.AdminWebApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CodeProject/JAVAproject/项目/尚庭公寓/ShangTingGongYu/apartment&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2443299&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.tyz.web.app.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEA\IDEAFILES\UtilsAndProjects\springboot-system\apartment\web\web-app\src\main\java\com\tyz\web\app" />
+      <recent name="D:\IDEA\IDEAFILES\UtilsAndProjects\springboot-system\apartment\web\web-app\src\main\java\com\tyz\web\app\service" />
+      <recent name="D:\IDEA\IDEAFILES\UtilsAndProjects\springboot-system\apartment\web\web-app\src\main\resources" />
+      <recent name="D:\IDEA\IDEAFILES\UtilsAndProjects\springboot-system\apartment\common\src\main\java\com\tyz\common" />
+      <recent name="D:\IDEA\IDEAFILES\UtilsAndProjects\springboot-system\apartment\web\web-admin\src\main\java\com\tyz\web\admin" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AdminWebApplication">
+    <configuration name="AdminWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="web-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tyz.AdminWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="web-app" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tyz.AppWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9bffcfa0-2010-47b9-a6ff-321036c74c81" name="Changes" comment="" />
+      <created>1718784233865</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718784233865</updated>
+      <workItem from="1718784234953" duration="1625000" />
+      <workItem from="1718845325134" duration="9468000" />
+      <workItem from="1718872916404" duration="40000" />
+      <workItem from="1718873700746" duration="5219000" />
+      <workItem from="1718886119541" duration="4736000" />
+      <workItem from="1718931622690" duration="17400000" />
+      <workItem from="1725095489393" duration="563000" />
+      <workItem from="1725096122561" duration="873000" />
+      <workItem from="1725118579193" duration="21000" />
+      <workItem from="1725166580566" duration="10925000" />
+      <workItem from="1725262513165" duration="11823000" />
+      <workItem from="1725327866225" duration="6923000" />
+      <workItem from="1725420527192" duration="2417000" />
+      <workItem from="1725437142068" duration="4127000" />
+      <workItem from="1725500357915" duration="229000" />
+    </task>
+    <task id="LOCAL-00001" summary="分模块的公寓项目">
+      <option name="closed" value="true" />
+      <created>1718785364225</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718785364225</updated>
+    </task>
+    <task id="LOCAL-00002" summary="分模块的公寓项目">
+      <option name="closed" value="true" />
+      <created>1718785673761</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718785673761</updated>
+    </task>
+    <task id="LOCAL-00003" summary="分模块的公寓项目">
+      <option name="closed" value="true" />
+      <created>1718785766087</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718785766087</updated>
+    </task>
+    <task id="LOCAL-00004" summary="分模块的公寓项目">
+      <option name="closed" value="true" />
+      <created>1718890176265</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718890176265</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="分模块的公寓项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="分模块的公寓项目" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
