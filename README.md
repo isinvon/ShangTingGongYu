@@ -1,7 +1,6 @@
-# FuxiRentalPavilion
+# ShangTingGongYu
 
 #### 介绍
-伏羲租屋轩（Fuxi Rental Pavilion）是一个创新且功能强大的房屋租赁系统，旨在为用户提供便捷、高效、可靠的租房体验。
 
 #### 软件架构
 软件架构说明
